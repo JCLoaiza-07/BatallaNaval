@@ -11,7 +11,6 @@ public class Tablero {
     // Constructor
     public Tablero() {
         this.tablero = new String[FILAS][COLUMNAS];
-        this.fichas = new ArrayList<>();
 
         // Inicializamos el tablero con "~" para celdas vacías
         for (int i = 0; i < FILAS; i++) {
